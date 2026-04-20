@@ -1,0 +1,31 @@
+# Declaring two variables
+a = 15
+b = 12
+print(type(a)) # this will show int
+print(type(b)) # this will show int
+# Adding a and b
+sum = a + b
+print("Sum of a and b is", sum) # output is 27
+# Subtracting b from a
+difference = a - b
+print("Difference of a and b is", difference) # output is 3
+# Multiplying a and b
+product = a * b
+print("Product of a and b is", product) # output is 180
+# Dividing a by b
+quotient = a / b
+print("Quotient of a and b is", quotient) # output is 1.25
+# Storing a divided by b as a whole number
+c = int(a / b)
+print("The value of c is", c) # output is 1
+print("The type of c is", type(c)) # output is int
+# Concverting c to a in a decimal number
+c = float(c)
+print("The value of c as a float is", c) # output is 1.0
+print("The type of c is now", type(c)) # output is float
+# Creatinga message and print it
+message = "The result of a divided by b is?"
+print(message, c) # this will print the message and the value of c
+# Comparing a and b
+print(a > b)  # is a bigger than b? output is True
+print(a == b) # is a equal to b? output is False
